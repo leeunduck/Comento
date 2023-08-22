@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../reset.css" />
+    <link rel="stylesheet" type="text/css" href="./clock.css" />
+    <title>Clock</title>
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="digital-clock" id="digitalClock">12:34:56</div>
+      <div class="battery-container">
+        <div class="battery-level" id="batteryLevel"></div>
+      </div>
+      <div class="alarm-container">
+        <h2>알람 추가</h2>
+        <input type="time" id="alarmTime" required />
+        <button id="addAlarmButton">추가</button>
+      </div>
+      <div class="alarms-list">
+        <h2>알람 현황</h2>
+        <ul id="alarms"></ul>
+      </div>
+    </div>
+    <script src="./clock.js"></script>
+  </body>
+</html>

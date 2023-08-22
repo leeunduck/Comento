@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.clock-container {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.digital-clock {
+  font-size: 2rem;
+  color: #333;
+}
+
+.battery-container {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  position: relative;
+}
+
+.battery-level {
+  height: 100%;
+  background-color: #2ecc71;
+  transition: width 0.5s;
+}
+
+.alarm-container {
+  margin-top: 20px;
+}
+
+.alarm-container h2,
+.alarms-list h2 {
+  margin-bottom: 10px;
+}
+
+#alarms {
+  list-style: none;
+  padding: 0;
+}
+
+#alarms li {
+  margin-bottom: 5px;
+}
