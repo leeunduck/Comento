@@ -50,3 +50,23 @@ body {
 #alarms li {
   margin-bottom: 5px;
 }
+
+.dark-mode .clock-container {
+  background-color: #222;
+  color: #ddd;
+}
+
+.dark-mode .battery-level {
+  background-color: #27ae60;
+}
+
+.dark-mode .alarm-container,
+.dark-mode .alarms-list {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.dark-mode label {
+  color: #ddd;
+}
