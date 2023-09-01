@@ -1,7 +1,9 @@
+/* JS */
 .hidden {
   display: none;
 }
 
+/* LOGIN */
 #container {
   width: 120rem;
   height: 40rem;
@@ -69,6 +71,7 @@ input {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
+/* todo */
 #greeting {
   font-size: 5rem;
   font-weight: 800;
