@@ -9,6 +9,7 @@
   height: 40rem;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -69,6 +70,16 @@ input {
 #loginBtn:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+#memberBtn {
+  width: 10rem;
+}
+
+#memberBtn a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /* todo */

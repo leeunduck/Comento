@@ -1,0 +1,44 @@
+#container {
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 15rem;
+  height: 3.5rem;
+  display: block;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: rgb(233, 233, 233);
+}
+
+/* id */
+#memberId {
+  display: flex;
+  gap: 8rem;
+}
+
+#memberId input {
+  position: relative;
+  left: 5.5rem;
+}
+
+/* password */
+#strengthDisp {
+  color: white;
+}
+
+/* login button */
+#login {
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid black;
+  cursor: pointer;
+}
