@@ -11,20 +11,16 @@ function onduplicationSubmit(event) {
   const memberId = memberIdInput.value;
   memberIdInput.value = "";
   Id.push(memberId);
-  localStorage.setItem(MEMBERS_ID_KEY, JSON.stringify(Id));
-  const saveMemberId = localStorage.getItem(MEMBERS_ID_KEY);
-  const parsedId = JSON.parse(saveMemberId);
-  check(parsedId);
+  check(Id);
 }
 
-function check(parsedId) {
-  const set = new Set(parsedId);
-
-  console.log(set);
+function check(Id) {
+  const set = new Set(Id);
 
   // duplicate
-  if (parsedId.length !== set.size) {
-    alert("아이디가 중복 됐습니다");
+  if (Id.length !== set.size) {
+    alert("이미 사용 중인 아이디입니다.");
+    Id.pop();
   }
 }
 
